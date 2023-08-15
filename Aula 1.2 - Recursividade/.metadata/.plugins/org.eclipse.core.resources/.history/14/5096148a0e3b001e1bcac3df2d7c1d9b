@@ -1,0 +1,14 @@
+package view;
+
+import controller.MultiplicacaoController;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int numberA = 4, numberB = 5;
+
+		MultiplicacaoController pc = new  MultiplicacaoController();
+		System.out.println(pc.multiplicacao(numberA, numberB));
+	}
+
+}

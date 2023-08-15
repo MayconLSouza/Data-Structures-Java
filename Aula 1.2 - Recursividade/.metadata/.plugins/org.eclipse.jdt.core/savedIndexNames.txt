@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Users\Mayco\OneDrive\Documentos\Fatec\ZL\3-SEM\Estrutura de dados\Aula 1.2 - Recursividade\.metadata\.plugins\org.eclipse.jdt.core
+3663409269.index
+1845556622.index
+1627726346.index
+2825434150.index
+1865797976.index
+3285390704.index
+526556517.index
