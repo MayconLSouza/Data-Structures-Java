@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="RecursividadeBinario/src"/>
+	<classpathentry kind="src" path="RecursividadeDigitos/src"/>
+	<classpathentry kind="src" path="RecursividadeNumber/src"/>
+	<classpathentry kind="src" path="RecursividadeStringInvertida/src"/>
+	<classpathentry kind="output" path="RecursividadeBinario/bin"/>
+</classpath>

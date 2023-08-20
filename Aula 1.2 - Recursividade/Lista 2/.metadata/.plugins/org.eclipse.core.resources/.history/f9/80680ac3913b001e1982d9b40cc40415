@@ -1,0 +1,49 @@
+package controller;
+
+import java.util.Scanner;	//Biblioteca para leitura de dados através de input no console
+
+public class NumberController {
+
+	public NumberController() {
+		super();
+	}
+
+	public void inputNumberA(int numberA) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Digite um número inteiro de 10 a 999999: ");
+		numberA = sc.nextInt();	
+		while ( (numberA < 10) || (numberA > 999999) ) {
+			System.out.println("Numero invalido");
+            		System.out.print("Digite um número inteiro de 10 a 999999: ");
+            		numberA = sc.nextInt();
+        }
+		sc.close();		// Fechando o objeto Scanner
+	}
+
+	public void inputNumberB(int numberB) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite um numero inteiro de 0 a 9: ");
+        numberB = sc.nextInt();
+		while (numberB < 0 || numberB > 9) {
+			System.out.println("Numero invalido");
+            		System.out.print("Digite um número inteiro de 0 a 9: ");
+            		numberB = sc.nextInt();
+        } 
+		sc.close();		// Fechando o objeto Scanner
+	}
+		
+
+	public int number(int numberA, int numberB) {
+		//Condição de parada
+		if (numberA < 1){
+			return 0;
+		} else {
+			if( (numberA % 10) == numberB ) {
+				return 1 + number(numberA/10, numberB);	//Chamada da próxima função
+			}
+			return number(numberA/10, numberB);	//Chamada da próxima função
+		}
+	}
+}

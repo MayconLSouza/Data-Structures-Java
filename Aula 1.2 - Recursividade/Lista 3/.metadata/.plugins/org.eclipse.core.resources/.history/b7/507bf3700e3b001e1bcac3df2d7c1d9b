@@ -1,0 +1,14 @@
+package view;
+
+import controller.MDCController;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int numberA = 21, numberB = 15;
+		
+		MDCController pc = new MDCController();
+		System.out.println(pc.mdc(numberA, numberB));	//sysout
+	}
+
+}

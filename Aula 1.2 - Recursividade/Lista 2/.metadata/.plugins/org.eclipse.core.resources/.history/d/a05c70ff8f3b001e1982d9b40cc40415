@@ -1,0 +1,9 @@
+package controller;
+
+public class DigitosController {
+
+	public DigitosController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
