@@ -1,0 +1,15 @@
+package view;
+
+import model.PilhaInt;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		PilhaInt p =  new PilhaInt();
+		for (int i = 0; i < 5; i++) {
+			int valor = (int)((Math.random()*100)+1);
+			p.push(valor);
+		}				
+	}
+
+}

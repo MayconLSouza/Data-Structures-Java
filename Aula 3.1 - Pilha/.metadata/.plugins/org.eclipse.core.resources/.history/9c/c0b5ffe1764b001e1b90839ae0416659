@@ -1,0 +1,12 @@
+package model;
+
+public class PilhaInt {
+
+	No topo;
+	
+	public PilhaInt() {
+		//topo é a base no início da pilha
+		topo = null;
+	}
+
+}
