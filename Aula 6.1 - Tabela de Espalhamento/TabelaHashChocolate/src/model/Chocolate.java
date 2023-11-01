@@ -28,7 +28,7 @@ public class Chocolate {
 	//Exibir informacoes do chocolate
 	public String toString() {
 		return "Chocolate \nReceita = " + receita + "\nPeso = " + peso + " g\nVolume = " + volume + " cm3\naltura = " + altura + 
-				" cm\nLargura = " + largura + "cm\nComprimento = " + comprimento + " cm\n";
+				" cm\nLargura = " + largura + "cm\nComprimento = " + comprimento + " cm";
 	}
 
 	//Construtor vazio chocolate
